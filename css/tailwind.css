@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: hsl(225,66%,4%);
+}
+
+.logo{
+    width: 140px;
+}
+.showcase{
+    background: url(image/img1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 640px){
+    .showcase{
+        background: url(image/hero-img.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo{
+        margin: auto;
+    }
+}
+
